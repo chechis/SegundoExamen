@@ -1,0 +1,64 @@
+body {
+	margin: 1px;
+}
+
+header {
+	padding: 10px;
+}
+
+.cabecera{
+	display: inline;
+	flex-direction: row;
+}
+
+#cabecera {
+	background-color: #5b7989;
+}
+
+#cabecera .titulo > h1 {
+	padding: 10px;
+	text-align: left;
+}
+#cabecera .enlaces > h3 {
+	padding: 10px;
+	float: right;
+}
+
+
+
+#imagenCentral {
+	background-color: #F7D988;
+}
+
+#imagenSecundaria {
+	background-color: #F7D988;
+}
+
+
+
+
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #C6d5c5;
+}
+
+
+
+#ofertas .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 33.3%;
+}
+
+#disponible .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	border: solid 5px coral;
+	background-color: white;
+	width: 25%;
+}
