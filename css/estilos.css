@@ -27,6 +27,10 @@ header h3 {
 	padding-right: 2%;
 	float: right;
 }
+#mandarInicio{
+	text-decoration-color: red;
+
+}
 
 
 
@@ -41,21 +45,50 @@ header h3 {
 }
 
 
-#imagenDos{
+#imagenSecun{
   background-color: #D5C75F;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-flow: row;
+	border: 1px dotted;
 }
-#imagenDos img{
-  padding: 40px;
+.espacio1 {
+  width: 10%;
 }
-#imagenDos div{
-  margin-left: 300px;
+.imagen1 {
+  width: 30%;
+}
+.imagen1 img{
+	box-shadow: 3px 5px 10px 3px #82C3A6;
+	border: 2px solid;
+	transition: rotate 2s;
+}
+.imagen1 img:hover{
+	transform: rotate(10deg);
+}
+.espacio2 {
+  width: 20%;
+}
+.imagen2 {
+  width: 30%;
+}
+.imagen2 img{
+	box-shadow: 3px 5px 10px 3px #82C3A6;
+	border: 2px solid;
+	transition: translate 1s;
+
+}
+.imagen2 img:hover{
+	transform: translate(20px, 5px);
+}
+.espacio3 {
+  width: 10%;
 }
 
 
 footer {
-	margin-top: 10px;
 	width: 99%;
 	border-top: solid 2px black;
 	padding-top: 10px;
