@@ -189,6 +189,31 @@ footer {
 
 
 @media (max-width: 600px) {
+
+	header {
+		background-color: #5b7989;
+		width: 100%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		display: flex;
+		flex-flow: column;
+	}
+	header h1 {
+		width: 100%;
+		text-align: center;
+		text-shadow: 0 0 2px white;
+	}
+	#titulo{
+		text-decoration-color: #02010A;
+		text-shadow: 10px;
+	}
+	header h3 {
+		width: 20.33%;
+		position: relative;
+		right: 13%;
+		text-align: center;
+	}
+
 	#imagenSecun{
 	  background-color: #D5C75F;
 		padding-top: 40px;
