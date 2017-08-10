@@ -1,9 +1,14 @@
+@font-face {
+	font-family: dancing;
+	src: url(../fuente/dancings.otf);
+}
 body {
+	font-family: dancing;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	width: 99%;
-	background-color: black;
+	background-color: #02010A;
 }
 
 
@@ -92,6 +97,7 @@ footer {
 	border-bottom-right-radius: 10px;
 	border-top: solid 2px black;
 	padding-top: 10px;
+	padding-bottom: 5px;
 	background-color: #C6d5c5;
 }
 .pie1{
